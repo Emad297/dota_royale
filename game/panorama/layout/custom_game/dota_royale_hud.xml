@@ -1,0 +1,26 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/dota_royale_hud.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/dota_royale_hud.js" />
+	</scripts>
+	
+	<Panel class="DotaRoyaleHUD">
+		<!-- Skill Bar Container at bottom of screen -->
+		<Panel id="SkillBar" class="SkillBar">
+			<Label text="Hero Cards" class="SkillBarTitle" />
+			
+			<!-- Container for draggable hero cards -->
+			<Panel id="HeroCardsContainer" class="HeroCardsContainer">
+				<!-- These will be populated dynamically -->
+			</Panel>
+		</Panel>
+		
+		<!-- Visual indicator for spawn zones -->
+		<Panel id="SpawnZoneIndicator" class="SpawnZoneIndicator">
+			<Label id="SpawnZoneText" text="Drag heroes here to spawn" class="SpawnZoneText" />
+		</Panel>
+	</Panel>
+</root>
+

@@ -1,0 +1,26 @@
+# Compiled Dota 2 files
+game/tools_asset_info.bin
+game/tools_thumbnail_cache.bin
+*.vpcf_c
+*.vtex_c
+*.vmdl_c
+*.vsnd_c
+*.vxml_c
+
+# Build outputs
+*.vmap.bak
+*.vmf.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+
